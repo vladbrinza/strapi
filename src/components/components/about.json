@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_homepage_abouts",
+  "info": {
+    "displayName": "About",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Subtitle": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Reversed": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.image"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.button"
+    }
+  }
+}

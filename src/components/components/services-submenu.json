@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_components_services_submenus",
+  "info": {
+    "displayName": "ServicesSubmenu",
+    "icon": "chevron-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TopImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.image"
+    },
+    "PageTitle": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.image"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.button"
+    },
+    "Checkboxes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subcomponents.services-checkbox"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "staffings",
+  "info": {
+    "singularName": "staffing",
+    "pluralName": "staffings",
+    "displayName": "Staffing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Staffing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.services-submenu"
+    }
+  }
+}

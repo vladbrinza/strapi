@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_subcomponents_services_checkboxes",
+  "info": {
+    "displayName": "ServicesCheckbox",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

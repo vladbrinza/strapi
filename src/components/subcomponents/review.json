@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_subcomponents_reviews",
+  "info": {
+    "displayName": "Review",
+    "icon": "user-edit"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Review": {
+      "type": "text"
+    }
+  }
+}

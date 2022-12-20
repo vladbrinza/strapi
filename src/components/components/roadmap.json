@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_roadmaps",
+  "info": {
+    "displayName": "Roadmap",
+    "icon": "arrows-alt-v",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Subtitle": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subcomponents.list-item"
+    }
+  }
+}

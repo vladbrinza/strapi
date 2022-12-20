@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_media_galleries",
+  "info": {
+    "displayName": "Media Gallery",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subcomponents.image"
+    }
+  }
+}

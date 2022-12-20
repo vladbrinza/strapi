@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "transportations",
+  "info": {
+    "singularName": "transportation",
+    "pluralName": "transportations",
+    "displayName": "Transportation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Transportation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.services-submenu"
+    }
+  }
+}

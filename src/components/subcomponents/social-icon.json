@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_subcomponents_social_icons",
+  "info": {
+    "displayName": "Social Icon",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "Platform": {
+      "type": "enumeration",
+      "enum": [
+        "twitter",
+        "facebook",
+        "linkedin",
+        "skype"
+      ],
+      "required": true
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

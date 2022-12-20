@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_reviews",
+  "info": {
+    "displayName": "Reviews",
+    "icon": "user-edit"
+  },
+  "options": {},
+  "attributes": {
+    "Subtitle": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Review": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subcomponents.review",
+      "max": 4,
+      "min": 4,
+      "required": true
+    }
+  }
+}

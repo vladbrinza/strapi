@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_blogs",
+  "info": {
+    "displayName": "Blog",
+    "icon": "sliders-h"
+  },
+  "options": {},
+  "attributes": {
+    "Subtitle": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "Button": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.button"
+    }
+  }
+}

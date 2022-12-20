@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "reviewss",
+  "info": {
+    "singularName": "reviews",
+    "pluralName": "reviewss",
+    "displayName": "Reviews",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageTitle": {
+      "type": "string"
+    },
+    "PageImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.image"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "Partners": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.portfolio"
+    }
+  }
+}

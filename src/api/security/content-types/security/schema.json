@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "securities",
+  "info": {
+    "singularName": "security",
+    "pluralName": "securities",
+    "displayName": "Security"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Security": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.services-submenu"
+    }
+  }
+}

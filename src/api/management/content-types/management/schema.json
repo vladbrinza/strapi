@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "managements",
+  "info": {
+    "singularName": "management",
+    "pluralName": "managements",
+    "displayName": "Management"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "TeamMember": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subcomponents.team-member"
+    }
+  }
+}

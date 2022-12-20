@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_portfolios",
+  "info": {
+    "displayName": "Portfolio",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subcomponents.image"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    }
+  }
+}

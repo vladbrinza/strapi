@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "ticketings",
+  "info": {
+    "singularName": "ticketing",
+    "pluralName": "ticketings",
+    "displayName": "Ticketing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Ticketing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.services-submenu"
+    }
+  }
+}

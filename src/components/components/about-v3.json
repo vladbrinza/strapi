@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_about_v3s",
+  "info": {
+    "displayName": "AboutV3",
+    "icon": "question-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subcomponents.list-item-with-button",
+      "min": 3,
+      "max": 3
+    }
+  }
+}

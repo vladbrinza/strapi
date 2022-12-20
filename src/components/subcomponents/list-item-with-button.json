@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_subcomponents_list_item_with_buttons",
+  "info": {
+    "displayName": "List Item With Button",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonURL": {
+      "type": "string"
+    }
+  }
+}

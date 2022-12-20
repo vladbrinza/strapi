@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "servicess",
+  "info": {
+    "singularName": "services",
+    "pluralName": "servicess",
+    "displayName": "Services",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.image"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "PageImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.image"
+    },
+    "ServicesList": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.roadmap"
+    },
+    "BottomLeftImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.image"
+    },
+    "BottomTitle": {
+      "type": "string"
+    },
+    "BottomText": {
+      "type": "richtext"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.roadmap"
+    }
+  }
+}

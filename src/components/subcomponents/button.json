@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_subcomponents_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "mouse-pointer"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}
