@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "send_email_tos",
+  "info": {
+    "singularName": "send-email-to",
+    "pluralName": "send-email-tos",
+    "displayName": "SendEmailTo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SendEmailTo": {
+      "type": "email",
+      "required": true
+    }
+  }
+}

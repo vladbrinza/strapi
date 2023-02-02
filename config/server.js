@@ -4,9 +4,4 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS'),
   },
-  url: env('PUBLIC_URL', 'https://api.cissinc.tk'),
-  admin: {
-    path: "/dashboard",
-    port: 1337
-  }
 });

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_forms",
+  "info": {
+    "displayName": "Form",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    }
+  }
+}

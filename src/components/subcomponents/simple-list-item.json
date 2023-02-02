@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_subcomponents_simple_list_items",
+  "info": {
+    "displayName": "Simple List Item",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "ListItem": {
+      "type": "string"
+    }
+  }
+}

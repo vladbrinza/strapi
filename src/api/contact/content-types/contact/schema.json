@@ -4,24 +4,37 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "Contact"
+    "displayName": "Contact",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "LeftTitle": {
       "type": "string"
     },
-    "Subtitle": {
+    "RightTitle": {
       "type": "string"
     },
     "Location": {
       "type": "string"
     },
-    "Contact": {
-      "type": "string"
+    "Form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.form"
+    },
+    "RightDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subcomponents.simple-list-item"
+    },
+    "LeftDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subcomponents.simple-list-item"
     }
   }
 }

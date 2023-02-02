@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_components_homes",
+  "info": {
+    "displayName": "Home",
+    "icon": "home",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.button"
+    },
+    "Video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "Logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.image"
+    }
+  }
+}
