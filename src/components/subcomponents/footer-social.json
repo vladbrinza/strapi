@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_subcomponents_footer_socials",
+  "info": {
+    "displayName": "Footer Social",
+    "icon": "assistive-listening-systems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "string"
+    },
+    "Enabled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

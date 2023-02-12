@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_subcomponents_footer_social_lists",
+  "info": {
+    "displayName": "Footer Social List",
+    "icon": "user-circle"
+  },
+  "options": {},
+  "attributes": {
+    "Twitter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.footer-social"
+    },
+    "Facebook": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.footer-social"
+    },
+    "Instagram": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.footer-social"
+    },
+    "Youtube": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.footer-social"
+    },
+    "Tiktok": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.footer-social"
+    }
+  }
+}
