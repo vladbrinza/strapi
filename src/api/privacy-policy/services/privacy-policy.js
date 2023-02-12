@@ -6,4 +6,4 @@
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::resume.resume');
+module.exports = createCoreService('api::privacy-policy.privacy-policy');

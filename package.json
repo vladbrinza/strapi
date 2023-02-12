@@ -11,11 +11,15 @@
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.5.3",
+    "@strapi/plugin-seo": "^1.7.7",
     "@strapi/plugin-users-permissions": "4.5.3",
     "@strapi/strapi": "4.5.3",
     "better-sqlite3": "7.4.6",
+    "install": "^0.13.0",
+    "npm": "^9.4.2",
     "pg": "^8.8.0",
-    "pg-connection-string": "^2.5.0"
+    "pg-connection-string": "^2.5.0",
+    "strapi-tiptap-editor": "^0.9.10"
   },
   "author": {
     "name": "A Strapi developer"

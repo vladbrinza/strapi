@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "patrol-division",
+  "info": {
+    "singularName": "patrol-division",
+    "pluralName": "patrol-divisions",
+    "displayName": "Patrol Divisions",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageTitle": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    }
+  }
+}
