@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * resume controller
+ * privacy-policy controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;

@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * resume router
+ * privacy-policy router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;

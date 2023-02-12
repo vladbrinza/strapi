@@ -15,8 +15,16 @@
     "PageTitle": {
       "type": "string"
     },
+    "TopImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.image"
+    },
     "Text": {
       "type": "richtext"
+    },
+    "TextTitle": {
+      "type": "string"
     }
   }
 }

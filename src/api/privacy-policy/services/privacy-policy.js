@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * resume service
+ * privacy-policy service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
