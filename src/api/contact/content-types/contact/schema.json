@@ -19,7 +19,7 @@
       "type": "string"
     },
     "Location": {
-      "type": "string"
+      "type": "text"
     },
     "Form": {
       "type": "component",

@@ -24,7 +24,7 @@
     "SocialIcons": {
       "type": "component",
       "repeatable": false,
-      "component": "subcomponents.footer-social-list"
+      "component": "subcomponents.foot-soc-list"
     }
   }
 }
