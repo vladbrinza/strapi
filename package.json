@@ -16,6 +16,7 @@
     "@strapi/strapi": "4.6.1",
     "better-sqlite3": "7.4.6",
     "install": "^0.13.0",
+    "mysql": "^2.18.1",
     "npm": "^9.4.2",
     "pg": "^8.8.0",
     "pg-connection-string": "^2.5.0",
