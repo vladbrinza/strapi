@@ -8,5 +8,8 @@ module.exports = ({ env }) => ({
   admin: {
     path: "/dashboard",
     port: 1337
-  }
+  },
+  webhooks: {
+    populateRelations: false,
+  },
 });

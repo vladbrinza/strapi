@@ -30,6 +30,13 @@
       "type": "component",
       "repeatable": false,
       "component": "subcomponents.image"
+    },
+    "VideoPlaceholder": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
