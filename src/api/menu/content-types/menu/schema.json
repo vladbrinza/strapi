@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "Menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Home": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.menu-item"
+    },
+    "About": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.menu-item"
+    },
+    "AboutSubmenus": {
+      "type": "component",
+      "repeatable": true,
+      "min": 3,
+      "max": 3,
+      "component": "subcomponents.menu-item"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.menu-item"
+    },
+    "ServicesSubmenus": {
+      "type": "component",
+      "repeatable": true,
+      "min": 5,
+      "max": 5,
+      "component": "subcomponents.menu-item"
+    },
+    "PatrolDivision": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.menu-item"
+    },
+    "Portfolio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.menu-item"
+    },
+    "PortfolioSubmenus": {
+      "type": "component",
+      "repeatable": true,
+      "min": 3,
+      "max": 3,
+      "component": "subcomponents.menu-item"
+    },
+    "Contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "subcomponents.menu-item"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_components_mail",
+  "info": {
+    "displayName": "Mail"
+  },
+  "options": {},
+  "attributes": {
+    "FromEmail": {
+      "type": "email",
+      "unique": false,
+      "required": true
+    },
+    "FromName": {
+      "type": "string",
+      "required": true
+    },
+    "Subject": {
+      "type": "string",
+      "required": true
+    },
+    "MessageHeader": {
+      "type": "richtext"
+    },
+    "ToEmail": {
+      "type": "email",
+      "required": true
+    }
+  }
+}
